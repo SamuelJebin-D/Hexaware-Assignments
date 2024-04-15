@@ -34,8 +34,8 @@ Select * from Orders
 --7
 select* from customers
 DECLARE @IDToUpdate INT;
-DECLARE @NewEmail NVARCHAR(255);
-DECLARE @NewAddress NVARCHAR(255);
+DECLARE @NewEmail VARCHAR(255);
+DECLARE @NewAddress VARCHAR(255);
 
 SET @IDToUpdate = 10;
 SET @NewEmail = 'Alice@xmail.com';
